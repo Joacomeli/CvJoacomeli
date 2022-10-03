@@ -1,0 +1,10 @@
+{
+    "id": "footer-data-1",
+    "section": "footer-1",
+    "copyright_text": "All rights reserved by <a href='https://www.linkedin.com/in/joaquin-melicchio-794a53155/' target='_blank'>Joaquin Melicchio</a>",
+    "logo": [
+        {
+            "src": "../images/logo/logo.png"
+        }
+    ]
+}
