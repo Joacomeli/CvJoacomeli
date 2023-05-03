@@ -17,12 +17,6 @@ module.exports = {
                 icon: "Mail",
             },
             {
-                id: 2,
-                title: "instagram",
-                path: "https://www.instagram.com/joaco_melicchio/",
-                icon: "Instagram",
-            },
-            {
                 id: 3,
                 title: "linkedin",
                 path: "https://www.linkedin.com/in/joaquin-melicchio-794a53155/",

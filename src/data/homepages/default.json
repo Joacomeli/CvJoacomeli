@@ -12,14 +12,10 @@
                     "content": "Hola, Soy <span>Joaquin Melicchio</span>"
                 }
             ],
-            "animated_texts": [
-                "Developer.",
-                "Coder.",
-                "Diseñador Web."
-            ],
+            "animated_texts": ["Developer.", "Coder.", "Web Designer."],
             "texts": [
                 {
-                    "content": "Soy un estudiante de Administracion de empresas, que estoy empezando a formarme en la industria del desarrollo web. Enfocandome principalmente en la creacion y mantenimiento de paginas webs. Trabajo con tecnologias como React Js, React Native, Javascript, Node Js, HTML y CSS. Tengo experiencia trabajando como Desarrollador Web y me estoy capacitando para en un futuro cercano trabajar como un Analista de Datos."
+                    "content": "Soy un estudiante de Licenciatura en Sistemas en la UADE, que estoy empezando a formarme en la industria del desarrollo web. Enfocandome principalmente en la creacion y mantenimiento de paginas webs. Trabajo con tecnologias como React Js, React Native, Javascript, Node Js, HTML y CSS. Tengo experiencia trabajando como Desarrollador Web y me estoy capacitando para en un futuro trabajar como Proyect Manager."
                 }
             ],
             "images": [
@@ -213,7 +209,7 @@
                 "subtitle": "2+ Años de Experiencia"
             }
         },
-        
+
         {
             "id": "default-home-education",
             "section": "education-section",
@@ -228,14 +224,14 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "Bachiller Bilingüe en inglés",
-                            "subtitle": "Colegio Cardenal Pironio Marín",
+                            "title": "Colegio Cardenal Pironio Marín",
+                            "subtitle": "Bachiller Bilingüe en inglés",
                             "description": "Educación bilingüe ( Inglés y Español), con orientación a la administación y economía."
                         },
                         {
                             "id": 2,
-                            "title": "Inglés como segundo idioma y Matematics",
-                            "subtitle": "IGCSE Cambridge",
+                            "title": "IGCSE Cambridge",
+                            "subtitle": "Inglés como segundo idioma y Matematics",
                             "description": "International General Certificate of Secondary Education en las areas de las Matemáticas e Inglés como segundo idioma."
                         }
                     ]
@@ -249,15 +245,9 @@
                     "items": [
                         {
                             "id": 1,
-                            "title": "Ingenieria en Sistemas de la Información",
-                            "subtitle": "Universidad Tecnologica Nacional (2020)",
-                            "description": "Introducción a la tecnología, profundizando en las matemáticas y los logaritmos."
-                        },
-                        {
-                            "id": 2,
-                            "title": "Lic. en Administración de Empresas",
-                            "subtitle": "Universidad de Buenos Aires (2021 - )",
-                            "description": "Desempeñarse en las areas de la economía y la administración de una empresa."
+                            "title": "Lic. en Gestión de Tecnología de la Información",
+                            "subtitle": "UADE (en Curso)",
+                            "description": "formacion especializada en el análisis de la relación entre las organizaciones y la tecnología de la información"
                         }
                     ]
                 }
@@ -1364,22 +1354,18 @@
                 "title": "Contactate",
                 "subtitle": "Contacto"
             },
-            "images": [
-                {
-                    
-                }
-            ],
+            "images": [{}],
             "headings": [
                 {
                     "content": "Joaquin Melicchio"
                 },
                 {
-                    "content": "Front End Developer y Data Analyst Trainee"
+                    "content": "FULL STACK DEVELOPER"
                 }
             ],
             "texts": [
                 {
-                    "content": "Estoy disponible para trabajos como freelancer, no dudes en contactarte. sponible para trabajos como freelancer, no dudes en contactarte. sponible para trabajos como freelancer, no dudes en contactarte.sponible para trabajos como freelancer, no dudes en contactarte.sponible para trabajos como freelancer, no dudes en contactarte.sponible para trabajos como freelancer, no dudes en contactarte.sponible para trabajos como freelancer, no dudes en contactarte.sponible para trabajos como freelancer, no dudes en contactarte.sponible para trabajos como freelancer, no dudes en contactarte."
+                    "content": "Soy estudiante de Licenciatura en Gestión de la Tecnología de la Informacion, en UADE. Estudie en el Colegio Cardenal Pironio (colegio bilingüe), donde obtuve el certificado IGCSE de la Universidad de Cambridge en 'Ingles como Segundo Idioma', y el de 'Matemáticas'. Estoy empezando a formarme en la industria del desarrollo web, utilizando las tecnologías de JavaScript, React js y Node js. Mi enfoque es sobre la creación y mantenimiento de paginas webs. "
                 }
             ]
         }
