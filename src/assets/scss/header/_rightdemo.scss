@@ -11,7 +11,7 @@
     .demo-button {
         border-radius: 6px 0 0 6px;
         background: linear-gradient(145deg, #1e2024, #23272b);
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         transition: var(--transition);
         position: relative;
         z-index: 2;
@@ -26,7 +26,7 @@
         cursor: pointer;
 
         &::before {
-            content: '';
+            content: "";
             position: absolute;
             transition: var(--transition);
             width: 100%;
@@ -49,7 +49,7 @@
     }
 }
 
-// Demo Modal Popup 
+// Demo Modal Popup
 .demo-modal-area {
     width: 100%;
     height: 100%;
@@ -76,12 +76,12 @@
         font-size: 22px;
         border-radius: 6px;
         background: linear-gradient(145deg, #1e2024, #23272b);
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         transition: var(--transition);
         z-index: 2;
 
         &::after {
-            content: '';
+            content: "";
             position: absolute;
             transition: var(--transition);
             width: 100%;
@@ -119,7 +119,7 @@
             }
 
             &::after {
-                content: '';
+                content: "";
                 position: absolute;
                 transition: var(--transition);
                 width: 100%;
@@ -151,7 +151,6 @@
     }
 }
 
-
 // Single Demo Styles
 
 .single-demo {
@@ -168,38 +167,46 @@
     padding-bottom: 20px;
 
     .inner {
-        &.badge-1{
+        &.badge-1 {
             position: relative;
             z-index: 1;
             overflow: hidden;
-            &::after{
+            &::after {
                 position: absolute;
-                content: 'Hot';
+                content: "Hot";
                 padding: 3px 10px;
                 border-radius: 5px;
                 z-index: 2;
                 font-size: 14px;
                 top: 15px;
                 right: 15px;
-                background: linear-gradient(to right, #6a67ce, #fc636b) !important;
+                background: linear-gradient(
+                    to right,
+                    #6a67ce,
+                    #fc636b
+                ) !important;
                 color: var(--color-white);
                 transition: 0.3s;
             }
         }
-        &.badge-2{
+        &.badge-2 {
             position: relative;
             z-index: 1;
             overflow: hidden;
-            &::after{
+            &::after {
                 position: absolute;
-                content: 'New';
+                content: "New";
                 padding: 3px 10px;
                 border-radius: 5px;
                 z-index: 2;
                 font-size: 14px;
                 top: 15px;
                 right: 15px;
-                background: linear-gradient(to right, #6a67ce, #fc636b) !important;
+                background: linear-gradient(
+                    to right,
+                    #6a67ce,
+                    #fc636b
+                ) !important;
                 color: var(--color-white);
                 transition: 0.3s;
             }
@@ -257,7 +264,7 @@
             padding-bottom: 0;
             font-size: 18px;
             text-align: center;
-            letter-spacing: .5px;
+            letter-spacing: 0.5px;
             border-top: 1px solid #1a1d23;
             margin-top: 0;
             font-weight: 600;
@@ -285,7 +292,6 @@
                         margin-top: 0;
                         .overlay-text {
                             opacity: 1;
-                            
                         }
                     }
                 }
@@ -304,7 +310,7 @@
     }
 
     &::after {
-        content: '';
+        content: "";
         position: absolute;
         transition: var(--transition);
         width: 100%;
@@ -318,12 +324,11 @@
     }
 }
 
-
 /*-------------------
  Popup Tab  
 -----------------------*/
 .popuptab-area {
-    justify-content: center;
+    justify-content: flex-center;
     margin: -20px -10px;
     margin-bottom: 50px;
     border: 0 none;
@@ -352,7 +357,7 @@
                 }
 
                 &::before {
-                    content: '';
+                    content: "";
                     position: absolute;
                     transition: var(--transition);
                     width: 100%;
@@ -360,14 +365,16 @@
                     border-radius: 6px;
                     top: 0;
                     left: 0;
-                    background: linear-gradient(to right bottom, #212428, #16181c);
+                    background: linear-gradient(
+                        to right bottom,
+                        #212428,
+                        #16181c
+                    );
                     opacity: 0;
                     z-index: -1;
-                    
                 }
 
-
-                &:hover ,
+                &:hover,
                 &.active {
                     outline: none;
                     border-color: transparent !important;
@@ -380,7 +387,6 @@
         }
     }
 }
-
 
 /*---------------------------------
     Right Demo Light Version  
@@ -438,13 +444,3 @@
 .demo-modal-area.white-version .wrapper .rn-modal-inner .demo-top .subtitle {
     color: var(--color-body-white);
 }
-
-
-
-
-
-
-
-
-
-
